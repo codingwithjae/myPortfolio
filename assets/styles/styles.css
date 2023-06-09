@@ -940,12 +940,12 @@ textarea {
 
     #project-list-container-1,
     #project-list-container-3 {
-        margin-left: 80px;
+        margin-left: 60px;
     }
 
     #project-list-container-2,
     #project-list-container-4 {
-        margin-left: -80px;
+        margin-left: -60px;
     }
 
 
