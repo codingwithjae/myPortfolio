@@ -58,7 +58,7 @@ Users should be able to:
 ### What can be improve
 
 - Validation form code still need some work.
-- Image overlay is missing in desktop view.
+- HTML can be enhanced.
 
 ## Author
 
