@@ -912,6 +912,11 @@ textarea {
 
     /* Overlay styling end*/
 
+    .project-list-container {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
     #skill-1,
     #experience-1,
     #skill-4,
@@ -939,18 +944,20 @@ textarea {
     }
 
     #project-list-container-1,
-    #project-list-container-3 {
+    #project-list-container-3,
+    #project-list-container-5  {
         margin-left: 140px;
     }
 
     #project-list-container-2,
-    #project-list-container-4 {
+    #project-list-container-4,
+    #project-list-container-6 {
         margin-left: -140px;
     }
 
 
     .projects-portfolio-container img {
-        Width: 480px;
+        Width: 460px;
         Height: 360px;
     }
 
@@ -986,20 +993,20 @@ textarea {
     }
 
     .footer-icons-container {
-        top: 3140px;
+        top: 3600px;
         left: 600px;
     }
 
     .contact-me-container-info {
         position: absolute;
         left: 30px;
-        top: 2620px;
+        top: 3080px;
     }
 
     .contact-me-container {
         position: absolute;
         left: 50px;
-        top: 2450px;
+        top: 2900px;
     }
 
     .rings-bottom-container {
