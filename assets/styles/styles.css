@@ -88,7 +88,7 @@ body {
 }
 
 #link:link {
-    color: white;
+    color: var(--White);
 }
 
 .my-photo-container {
@@ -100,7 +100,7 @@ body {
 #my-photo {
     width: 174px;
     height: 383px;
-    margin-top: -10px;
+    margin-top: -55px;
     margin-bottom: -50px;
     z-index: 1;
 }
@@ -218,6 +218,8 @@ body {
     Width: 345px;
     Height: 253px;
 }
+
+
 
 .skills-container,
 .previews-container {
@@ -617,10 +619,8 @@ textarea {
     #send-me-button {
         margin-left: 260px;
     }
-    
+
 }
-
-
 
 @media only screen and (min-width: 1024px) {
 
@@ -862,6 +862,55 @@ textarea {
     #my-photo {
         left: 780px;
     }
+
+    /* Overlay styling start*/
+
+    .project-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .project-container img {
+        transition: filter 0.3s ease;
+    }
+
+    .project-container:hover img {
+        filter: brightness(0.3);
+    }
+
+    .previews-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 1;
+    }
+
+    .project-container:hover .previews-container {
+        opacity: 1;
+    }
+
+    .previews-container a {
+        color: var(--White);
+        padding: 10px 20px;
+        text-decoration: none;
+        margin-bottom: 80px;
+    }
+
+    .project-container h2 {
+        margin-bottom: 20px;
+    }
+
+    .previews-container a:not(:last-child) {
+        margin-bottom: -10px;
+    }
+
+    /* Overlay styling end*/
 
     #skill-1,
     #experience-1,
