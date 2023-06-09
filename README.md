@@ -1,4 +1,4 @@
-# Frontend Mentor - Intro section with dropdown navigation solution
+# My most recent portfolio
 
 This is a solution to the [Single-page developer portfolio](https://www.frontendmentor.io/challenges/singlepage-developer-portfolio-bBVj2ZPi-x/hub). 
 
