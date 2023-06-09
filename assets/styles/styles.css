@@ -3,6 +3,7 @@
     --Gray: #D9D9D9;
     --Green: hsl(153, 71%, 59%);
     --Active: #7CFFCB;
+    --Orange: #ffa500;
     --Black: hsl(0, 0%, 8%);
     --LightBlack: #242424;
     --HeadingXXL: 62px;
@@ -58,7 +59,7 @@ body {
 }
 
 .underline {
-    border-bottom: solid 4px var(--Green);
+    border-bottom: solid 4px var(--Orange);
 }
 
 #contact-me-button {
@@ -72,7 +73,7 @@ body {
     font-size: var(--HeadingS);
     letter-spacing: 2.28571px;
     text-transform: uppercase;
-    border-bottom: solid 4px var(--Green);
+    border-bottom: solid 4px var(--Orange);
     height: 50px;
     width: 120px;
     margin-top: -120px;
@@ -80,7 +81,7 @@ body {
 }
 
 #contact-me-button:hover {
-    color: var(--Green);
+    color: var(--Orange);
 }
 
 #link {
@@ -194,12 +195,12 @@ body {
     text-transform: uppercase;
     height: 60px;
     margin-top: 20px;
-    border-bottom: solid 4px var(--Green);
+    border-bottom: solid 4px var(--Orange);
     letter-spacing: 2.28571px;
 }
 
 .portfolio-title button:hover {
-    color: var(--Green);
+    color: var(--Orange);
 }
 
 .projects-portfolio-container {
@@ -219,8 +220,6 @@ body {
     Height: 253px;
 }
 
-
-
 .skills-container,
 .previews-container {
     display: flex;
@@ -239,7 +238,7 @@ body {
 .previews-container a {
     font-size: var(--HeadingS);
     text-transform: uppercase;
-    border-bottom: solid 4px var(--Green);
+    border-bottom: solid 4px var(--Orange);
     font-size: var(--HeadingS);
     letter-spacing: 2.28571px;
     margin-top: 5px;
@@ -257,7 +256,7 @@ body {
 }
 
 .previews-container a:hover {
-    color: var(--Green);
+    color: var(--Orange);
 
 }
 
@@ -342,7 +341,7 @@ textarea {
     outline: none;
     font-size: var(--HeadingM);
     text-transform: uppercase;
-    border-bottom: solid 4px var(--Green);
+    border-bottom: solid 4px var(--Orange);
     letter-spacing: 2.28571px;
     margin-left: 140px;
     margin-top: 50px;
@@ -350,7 +349,7 @@ textarea {
 }
 
 #send-me-button:hover {
-    color: var(--Green);
+    color: var(--Orange);
 }
 
 .footer-icons {
@@ -625,7 +624,7 @@ textarea {
 @media only screen and (min-width: 1024px) {
 
     #my-photo {
-        width: 344px;
+        width: 330px;
         top: 20px;
         left: 580px;
         height: 723px;
@@ -851,7 +850,7 @@ textarea {
     }
 
     .bio-container button {
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     .portfolio-title {
@@ -957,8 +956,8 @@ textarea {
 
 
     .projects-portfolio-container img {
-        Width: 460px;
-        Height: 360px;
+        Width: 520px;
+        Height: 380px;
     }
 
     .contact-me-container {
@@ -972,7 +971,7 @@ textarea {
     }
 
     .rings-bottom-container {
-        top: 2600px;
+        top: 3500px;
         left: -250px;
     }
 
@@ -993,7 +992,7 @@ textarea {
     }
 
     .footer-icons-container {
-        top: 3600px;
+        top: 3665px;
         left: 600px;
     }
 
@@ -1010,7 +1009,7 @@ textarea {
     }
 
     .rings-bottom-container {
-        top: 2785px;
+        top: 3285px;
     }
 
 }
