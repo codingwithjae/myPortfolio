@@ -940,18 +940,18 @@ textarea {
 
     #project-list-container-1,
     #project-list-container-3 {
-        margin-left: 60px;
+        margin-left: 140px;
     }
 
     #project-list-container-2,
     #project-list-container-4 {
-        margin-left: -60px;
+        margin-left: -140px;
     }
 
 
     .projects-portfolio-container img {
-        Width: 580px;
-        Height: 440px;
+        Width: 480px;
+        Height: 360px;
     }
 
     .contact-me-container {
