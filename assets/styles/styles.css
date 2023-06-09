@@ -945,13 +945,13 @@ textarea {
     #project-list-container-1,
     #project-list-container-3,
     #project-list-container-5  {
-        margin-left: 140px;
+        margin-left: 120px;
     }
 
     #project-list-container-2,
     #project-list-container-4,
     #project-list-container-6 {
-        margin-left: -140px;
+        margin-left: -120px;
     }
 
 
