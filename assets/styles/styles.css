@@ -395,7 +395,6 @@ textarea {
         width: 200px
     }
 
-
     #contact-me-button {
         margin-left: 10px;
     }
@@ -596,6 +595,18 @@ textarea {
         margin-left: -90px;
     }
 
+    #project-list-container-1,
+    #project-list-container-3,
+    #project-list-container-5  {
+        margin-left: 20px;
+    }
+
+    #project-list-container-2,
+    #project-list-container-4,
+    #project-list-container-6 {
+        margin-left: -20px;
+    }
+
     #github-bottom,
     #front-end-mentor-bottom,
     #linkedin-bottom {
@@ -614,10 +625,14 @@ textarea {
         margin-left: 260px;
     }
 
-
     #send-me-button {
         margin-left: 260px;
     }
+
+    .footer-icons-container {
+        top: 3730px;
+    }
+
 
 }
 
@@ -740,7 +755,7 @@ textarea {
     .contact-me-container {
         position: absolute;
         left: 50px;
-        top: 2350px;
+        top: 2850px;
     }
 
     .contact-me-top {
@@ -756,18 +771,18 @@ textarea {
 
     #project-list-container-1,
     #project-list-container-3 {
-        margin-left: 80px;
+        margin-left: 40px;
     }
 
     #project-list-container-2,
     #project-list-container-4 {
-        margin-left: -80px;
+        margin-left: -40px;
     }
 
     .contact-me-container-info {
         position: absolute;
         left: 30px;
-        top: 2520px;
+        top: 3020px;
     }
 
     .form-container {
@@ -800,7 +815,7 @@ textarea {
     }
 
     .footer-icons-container {
-        top: 3060px;
+        top: 3570px;
         left: 500px;
     }
 
@@ -998,13 +1013,13 @@ textarea {
 
     .contact-me-container-info {
         position: absolute;
-        left: 30px;
+        left: 130px;
         top: 3080px;
     }
 
     .contact-me-container {
         position: absolute;
-        left: 50px;
+        left: 140px;
         top: 2900px;
     }
 
@@ -1147,6 +1162,4 @@ textarea {
     .contact-me-container-info {
         left: 290px;
     }
-
-
 }
