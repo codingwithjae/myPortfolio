@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/jaegit123/My-portfolio)
+- Solution URL: [Github](https://github.com/jaedevgithub/myPortfolio)
 
 - Live Site URL: [Github Pages](https://codingwithjae.dev/)
 
