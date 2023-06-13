@@ -598,13 +598,13 @@ textarea {
     #project-list-container-1,
     #project-list-container-3,
     #project-list-container-5  {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     #project-list-container-2,
     #project-list-container-4,
     #project-list-container-6 {
-        margin-left: -20px;
+        margin-left: -10px;
     }
 
     #github-bottom,
