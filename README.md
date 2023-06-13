@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://giphy.com/gifs/eFNQvbEjaRKNo8QRk8)
+![](//assets/images/preview.gif)
 
 ### Links
 
