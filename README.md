@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](//assets/images/preview.gif)
+![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzI0YjU2OGZiMjI5MWIxZjA3YWQ5YmQ4ODY1NDE4M2M5NjE4MTNkMCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/eFNQvbEjaRKNo8QRk8/giphy-downsized-large.gif)
 
 ### Links
 
