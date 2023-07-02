@@ -1,8 +1,8 @@
 ## Welcome to my most recent portfolio repository from a Front End Mentor challenge! 👋
 
-This is a solution to the [Single-page developer portfolio](https://www.frontendmentor.io/challenges/singlepage-developer-portfolio-bBVj2ZPi-x/hub). 
+This is a solution to the [Single-page developer portfolio](https://www.frontendmentor.io/challenges/singlepage-developer-portfolio-bBVj2ZPi-x/hub).
 
-Frontend Mentor challenges help to improve coding skills by building realistic projects. 
+Frontend Mentor challenges help to improve coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -53,7 +53,7 @@ Users should be able to:
 ### What I learned
 
 - I use the original Front End Mentor Project for making my own portfolio.
-- This project was done with mobile-first in mind.
+- This project was done with mobile-first in mind. Was a great exercise for doing layout and for putting in practices Javascript concepts with the validation form. In future updates I would implement Airtable to the website.
 
 ### What can be improve
 
