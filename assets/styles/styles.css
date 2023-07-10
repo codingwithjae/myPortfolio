@@ -1,1165 +1,1173 @@
 :root {
-    --White: #FFFFFF;
-    --Gray: #D9D9D9;
-    --Green: hsl(153, 71%, 59%);
-    --Active: #7CFFCB;
-    --Orange: #ffa500;
-    --Black: hsl(0, 0%, 8%);
-    --LightBlack: #242424;
-    --HeadingXXL: 62px;
-    --HeadingXL: 43px;
-    --HeadingL: 33px;
-    --HeadingM: 24px;
-    --HeadingS: 16px;
-    --Error: #FF6F5B
+  --White: #ffffff;
+  --Gray: #d9d9d9;
+  --Green: hsl(153, 71%, 59%);
+  --Active: #7cffcb;
+  --Orange: #ffa500;
+  --Black: hsl(0, 0%, 8%);
+  --LightBlack: #242424;
+  --HeadingXXL: 62px;
+  --HeadingXL: 43px;
+  --HeadingL: 33px;
+  --HeadingM: 24px;
+  --HeadingS: 16px;
+  --Error: #ff6f5b;
 }
 
 * {
-    font-family: 'Space Grotesk', sans-serif;
-
+  font-family: "Space Grotesk", sans-serif;
 }
 
 body {
-    margin: 0px;
-    background-color: var(--Black);
-    color: var(--White);
-    overflow-x: hidden;
+  margin: 0px;
+  background-color: var(--Black);
+  color: var(--White);
+  overflow-x: hidden;
 }
 
 /* Mobile styling start*/
 
 .bio-container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    Width: 343px;
-    Height: 544px;
-    border-bottom: 3px solid var(--White);
-
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 343px;
+  height: 544px;
+  border-bottom: 3px solid var(--White);
 }
 
 .error {
-    border-bottom: 1.5px solid var(--Error);
-    width: 320px;
+  border-bottom: 1.5px solid var(--Error);
+  width: 320px;
 }
 
 .bio-container h1 {
-    font-size: var(--HeadingL);
-    line-height: 40px;
-
+  font-size: var(--HeadingL);
+  line-height: 40px;
 }
 
 .bio-container p {
-    font-size: var(--HeadingS);
-    line-height: 40px;
-    margin-top: -100px;
-
+  font-size: var(--HeadingS);
+  line-height: 40px;
+  margin-top: -100px;
 }
 
 .underline {
-    border-bottom: solid 4px var(--Orange);
+  border-bottom: solid 4px var(--Orange);
 }
 
-#contact-me-button {
-    background: none;
-    color: var(--White);
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    outline: none;
-    display: flex;
-    font-size: var(--HeadingS);
-    letter-spacing: 2.28571px;
-    text-transform: uppercase;
-    border-bottom: solid 4px var(--Orange);
-    height: 50px;
-    width: 120px;
-    margin-top: -120px;
-    margin-left: 115px;
-}
-
-#contact-me-button:hover {
-    color: var(--Orange);
+#my-cv-button {
+  background: none;
+  color: var(--White);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  font-size: var(--HeadingS);
+  letter-spacing: 2.28571px;
+  text-transform: uppercase;
+  border-bottom: solid 4px var(--Orange);
+  height: 50px;
+  width: 165px;
+  margin-top: -120px;
+  margin-left: 25px;
+  text-decoration: none;
 }
 
 #link {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+#link:visited {
+  color: var(--Orange);
+}
+
+#contact-me-button {
+  background: none;
+  color: var(--White);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  font-size: var(--HeadingS);
+  letter-spacing: 2.28571px;
+  text-transform: uppercase;
+  border-bottom: solid 4px var(--Orange);
+  height: 50px;
+  width: 120px;
+  margin-top: -120px;
+  margin-left: 115px;
+}
+
+#contact-me-button:hover,
+#my-cv-button:hover {
+  color: var(--Orange);
+}
+
+#link {
+  text-decoration: none;
 }
 
 #link:link {
-    color: var(--White);
+  color: var(--White);
 }
 
 .my-photo-container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 #my-photo {
-    width: 174px;
-    height: 383px;
-    margin-top: -55px;
-    margin-bottom: -50px;
-    z-index: 1;
+  width: 174px;
+  height: 383px;
+  margin-top: -55px;
+  margin-bottom: -50px;
+  z-index: 1;
 }
 
 .social-media-icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: var(--HeadingM);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: var(--HeadingM);
 }
 
 #github,
 #front-end-mentor,
 #linkedin {
-    margin-left: 10px;
-    margin-right: 10px;
-    cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 #circle-top {
-    position: absolute;
-    Top: 270px;
-    right: 0px;
+  position: absolute;
+  top: 270px;
+  right: 0px;
 }
 
 #rings-top {
-    position: absolute;
-    object-fit: cover;
-    Top: 145px;
-    right: 150px;
-    z-index: -1;
+  position: absolute;
+  object-fit: cover;
+  top: 145px;
+  right: 150px;
+  z-index: -1;
 }
 
 .skills-list-container {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: auto;
-    align-items: center;
-    text-align: center;
-    border-bottom: 3px solid var(--White);
-    margin: 20px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  align-items: center;
+  text-align: center;
+  border-bottom: 3px solid var(--White);
+  margin: 20px;
 }
 
 .skills-list-container h2 {
-    font-size: var(--HeadingL);
+  font-size: var(--HeadingL);
 }
 
 #margin-id-top {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 #experience-6 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .rings-middle-container {
-    position: absolute;
-    z-index: -1;
-    left: -350px;
-    bottom: -970px;
-    width: 530px;
+  position: absolute;
+  z-index: -1;
+  left: -350px;
+  bottom: -970px;
+  width: 530px;
 }
 
 .project-list-container {
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
 }
 
 .portfolio-title {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
 }
 
 .portfolio-title h2 {
-    font-size: var(--HeadingL);
+  font-size: var(--HeadingL);
 }
 
 .portfolio-title button {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    outline: none;
-    font-size: var(--HeadingS);
-    text-transform: uppercase;
-    height: 60px;
-    margin-top: 20px;
-    border-bottom: solid 4px var(--Orange);
-    letter-spacing: 2.28571px;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  font-size: var(--HeadingS);
+  text-transform: uppercase;
+  height: 60px;
+  margin-top: 20px;
+  border-bottom: solid 4px var(--Orange);
+  letter-spacing: 2.28571px;
 }
 
 .portfolio-title button:hover {
-    color: var(--Orange);
+  color: var(--Orange);
 }
 
 .projects-portfolio-container {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: auto;
-    align-items: center;
-    margin: 20px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  align-items: center;
+  margin: 20px;
 }
 
 .project-title {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .projects-portfolio-container img {
-    Width: 345px;
-    Height: 253px;
+  width: 345px;
+  height: 253px;
 }
 
 .skills-container,
 .previews-container {
-    display: flex;
-    flex-direction: row;
-    gap: 18px;
-    font-size: var(--HeadingS);
-    text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  font-size: var(--HeadingS);
+  text-transform: uppercase;
 }
 
 .skills-container {
-    margin-top: -25px;
-    font-size: var(--HeadingS);
-    color: var(--Gray);
+  margin-top: -25px;
+  font-size: var(--HeadingS);
+  color: var(--Gray);
 }
 
 .previews-container a {
-    font-size: var(--HeadingS);
-    text-transform: uppercase;
-    border-bottom: solid 4px var(--Orange);
-    font-size: var(--HeadingS);
-    letter-spacing: 2.28571px;
-    margin-top: 5px;
-    height: 40px;
-    cursor: pointer;
-    text-decoration: none
+  font-size: var(--HeadingS);
+  text-transform: uppercase;
+  border-bottom: solid 4px var(--Orange);
+  font-size: var(--HeadingS);
+  letter-spacing: 2.28571px;
+  margin-top: 5px;
+  height: 40px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .previews-container a:link {
-    color: var(--White);
+  color: var(--White);
 }
 
 .previews-container a:visited {
-    color: var(--White);
+  color: var(--White);
 }
 
 .previews-container a:hover {
-    color: var(--Orange);
-
+  color: var(--Orange);
 }
 
 .project-container {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 /* Mobile styling end*/
 
-
 /* Contact form styling start*/
 
 .contact-form-container {
-    background-color: var(--LightBlack);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: var(--LightBlack);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-form-container h2 {
-    font-size: var(--HeadingL);
+  font-size: var(--HeadingL);
 }
 
 .contact-form-container p {
-    font-size: var(--HeadingS);
-    margin: 15px;
-    text-align: center;
-    line-height: 26px;
-    margin-top: -5px;
-    color: var(--Gray);
+  font-size: var(--HeadingS);
+  margin: 15px;
+  text-align: center;
+  line-height: 26px;
+  margin-top: -5px;
+  color: var(--Gray);
 }
 
 .form-container p {
-    margin: 15px;
-    text-align: center;
-    margin-top: -5px;
-    color: var(--White);
+  margin: 15px;
+  text-align: center;
+  margin-top: -5px;
+  color: var(--White);
 }
 
 .inputs-containers {
-    border-bottom: 1.5px solid var(--White);
-    width: 340px;
-    height: 120px;
+  border-bottom: 1.5px solid var(--White);
+  width: 340px;
+  height: 120px;
 }
 
 .message-line {
-    height: 140px;
-    border-bottom: 1.5px solid var(--White);
+  height: 140px;
+  border-bottom: 1.5px solid var(--White);
 }
 
 input,
 textarea {
-    color: var(--Gray);
-    margin: 15px;
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    outline: none;
-    font-size: var(--HeadingS);
-    text-transform: uppercase;
-    letter-spacing: 2.28571px;
-    height: 50px;
+  color: var(--Gray);
+  margin: 15px;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  font-size: var(--HeadingS);
+  text-transform: uppercase;
+  letter-spacing: 2.28571px;
+  height: 50px;
 }
 
 textarea {
-    max-width: 310px;
-    width: 310px;
-    max-height: 100px;
-    height: 100px;
-    resize: none;
+  max-width: 310px;
+  width: 310px;
+  max-height: 100px;
+  height: 100px;
+  resize: none;
 }
 
 #send-me-button {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    outline: none;
-    font-size: var(--HeadingM);
-    text-transform: uppercase;
-    border-bottom: solid 4px var(--Orange);
-    letter-spacing: 2.28571px;
-    margin-left: 140px;
-    margin-top: 50px;
-    height: 90px;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  font-size: var(--HeadingM);
+  text-transform: uppercase;
+  border-bottom: solid 4px var(--Orange);
+  letter-spacing: 2.28571px;
+  margin-left: 140px;
+  margin-top: 50px;
+  height: 90px;
 }
 
 #send-me-button:hover {
-    color: var(--Orange);
+  color: var(--Orange);
 }
 
 .footer-icons {
-    margin-top: 120px;
-    margin-bottom: 60px;
-    text-align: center;
-    background-color: var(--LightBlack);
-    border-top: 1.5px solid var(--White);
-    color: var(--White);
-    width: 340px;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  text-align: center;
+  background-color: var(--LightBlack);
+  border-top: 1.5px solid var(--White);
+  color: var(--White);
+  width: 340px;
 }
 
 #my-name {
-    font-size: var(--HeadingM);
-    color: var(--White);
-    margin-top: 50px;
-    margin-bottom: 30px;
+  font-size: var(--HeadingM);
+  color: var(--White);
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .rings-bottom-container {
-    position: absolute;
-    z-index: 1;
-    top: 4550px;
-    left: -390px;
+  position: absolute;
+  z-index: 1;
+  top: 4550px;
+  left: -390px;
 }
 
 #front-end-mentor-bottom,
 #linkedin-bottom {
-    margin-left: 20px;
-    cursor: pointer;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
 /* Contact form styling end*/
 
 @media only screen and (min-width: 768px) {
+  .my-photo-container {
+    width: 720px;
+  }
 
-    .my-photo-container {
-        width: 720px;
-    }
+  .error {
+    width: 200px;
+  }
 
-    .error {
+  #contact-me-button {
+    margin-left: 10px;
+  }
 
-        width: 200px
-    }
+  #my-photo {
+    width: 274px;
+    top: 190px;
+    left: 480px;
+    height: 583px;
+    z-index: -1;
+  }
 
-    #contact-me-button {
-        margin-left: 10px;
-    }
+  #rings-top {
+    left: -350px;
+    top: 90px;
+  }
 
-    #my-photo {
-        width: 274px;
-        top: 190px;
-        left: 480px;
-        height: 583px;
-        z-index: -1;
-    }
+  #circle-top {
+    top: 540px;
+  }
 
-    #rings-top {
-        left: -350px;
-        top: 90px;
-    }
+  .bio-container {
+    text-align: left;
+    height: 730px;
+    width: 720px;
+  }
 
-    #circle-top {
-        top: 540px;
-    }
+  #github,
+  #front-end-mentor,
+  #linkedin,
+  #my-photo,
+  .social-media-icons p,
+  .bio-container h1,
+  .bio-container p,
+  .bio-container button,
+  #skill-1,
+  #skill-2,
+  #skill-3,
+  #skill-4,
+  #skill-5,
+  #skill-6,
+  #experience-1,
+  #experience-2,
+  #experience-3,
+  #experience-4,
+  #experience-5,
+  #experience-6 {
+    position: absolute;
+  }
 
-    .bio-container {
-        text-align: left;
-        height: 730px;
-        width: 720px;
-    }
+  #github,
+  #front-end-mentor,
+  #linkedin,
+  .social-media-icons p {
+    margin-top: 25px;
+  }
 
-    #github,
-    #front-end-mentor,
-    #linkedin,
-    #my-photo,
-    .social-media-icons p,
-    .bio-container h1,
-    .bio-container p,
-    .bio-container button,
-    #skill-1,
-    #skill-2,
-    #skill-3,
-    #skill-4,
-    #skill-5,
-    #skill-6,
-    #experience-1,
-    #experience-2,
-    #experience-3,
-    #experience-4,
-    #experience-5,
-    #experience-6 {
-        position: absolute;
-    }
+  #github {
+    margin-left: 220px;
+  }
 
-    #github,
-    #front-end-mentor,
-    #linkedin,
-    .social-media-icons p {
-        margin-top: 25px;
-    }
+  #front-end-mentor {
+    margin-left: 270px;
+  }
 
-    #github {
-        margin-left: 220px;
-    }
+  #linkedin {
+    margin-left: 320px;
+  }
 
-    #front-end-mentor {
-        margin-left: 270px;
-    }
+  .social-media-icons p {
+    margin-left: -350px;
+    margin-top: 20px;
+  }
 
-    #linkedin {
-        margin-left: 320px;
-    }
+  .footer-icons-container {
+    position: absolute;
+    top: 3260px;
+    left: 400px;
+  }
 
-    .social-media-icons p {
-        margin-left: -350px;
-        margin-top: 20px;
-    }
+  .bio-container h1 {
+    font-size: var(--HeadingXXL);
+    line-height: 65px;
+    margin-top: -190px;
+    margin-left: 10px;
+    width: 600px;
+  }
 
-    .footer-icons-container {
-        position: absolute;
-        top: 3260px;
-        left: 400px;
-    }
+  .bio-container p {
+    margin-left: 10px;
+    margin-top: 220px;
+    width: 370px;
+  }
 
-    .bio-container h1 {
-        font-size: var(--HeadingXXL);
-        line-height: 65px;
-        margin-top: -190px;
-        margin-left: 10px;
-        width: 600px;
-    }
+  .bio-container button {
+    margin-bottom: -620px;
+    margin-left: 10px;
+  }
 
-    .bio-container p {
-        margin-left: 10px;
-        margin-top: 220px;
-        width: 370px;
-    }
+  .skills-list-container {
+    height: 430px;
+    border-bottom: none;
+  }
 
-    .bio-container button {
-        margin-bottom: -620px;
-        margin-left: 10px;
-    }
+  #skill-1,
+  #skill-2,
+  #skill-3,
+  #skill-4,
+  #skill-5,
+  #skill-6,
+  #experience-5,
+  #experience-1,
+  #experience-4 {
+    margin-top: -280px;
+    left: 50px;
+  }
 
-    .skills-list-container {
-        height: 430px;
-        border-bottom: none;
-    }
+  #skill-3,
+  #skill-6 {
+    margin-top: 10px;
+  }
 
-    #skill-1,
-    #skill-2,
-    #skill-3,
-    #skill-4,
-    #skill-5,
-    #skill-6,
-    #experience-5,
-    #experience-1,
-    #experience-4 {
-        margin-top: -280px;
-        left: 50px;
-    }
+  #skill-4,
+  #skill-5 {
+    margin-top: 300px;
+  }
 
-    #skill-3,
-    #skill-6 {
-        margin-top: 10px;
-    }
+  #skill-2,
+  #skill-5,
+  #skill-6,
+  #experience-2,
+  #experience-3,
+  #experience-6 {
+    left: 480px;
+  }
 
-    #skill-4,
-    #skill-5 {
-        margin-top: 300px;
-    }
+  #experience-1,
+  #experience-2,
+  #experience-3 {
+    margin-top: -170px;
+  }
 
-    #skill-2,
-    #skill-5,
-    #skill-6,
-    #experience-2,
-    #experience-3,
-    #experience-6 {
-        left: 480px;
-    }
+  #experience-3,
+  #experience-4 {
+    margin-top: 120px;
+  }
 
-    #experience-1,
-    #experience-2,
-    #experience-3 {
-        margin-top: -170px;
-    }
+  #experience-5,
+  #experience-6 {
+    margin-top: 425px;
+  }
 
-    #experience-3,
-    #experience-4 {
-        margin-top: 120px;
+  #rings-middle {
+    top: 900px;
+    left: 580px;
+  }
 
-    }
+  .portfolio-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 700px;
+    margin-left: 40px;
+  }
 
-    #experience-5,
-    #experience-6 {
-        margin-top: 425px;
-    }
+  .portfolio-title h2 {
+    font-size: var(--HeadingXL);
+  }
 
-    #rings-middle {
-        top: 900px;
-        left: 580px;
-    }
+  .projects-portfolio-container {
+    grid-template-columns: 50% 50%;
+  }
 
-    .portfolio-title {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        width: 700px;
-        margin-left: 40px;
-    }
+  .rings-bottom-container {
+    top: 3000px;
+    z-index: 2;
+  }
 
-    .portfolio-title h2 {
-        font-size: var(--HeadingXL);
-    }
+  .contact-form-container h2 {
+    font-size: var(--HeadingXXL);
+  }
 
-    .projects-portfolio-container {
-        grid-template-columns: 50% 50%;
-    }
+  .contact-form-container p {
+    width: 380px;
+  }
 
-    .rings-bottom-container {
-        top: 3000px;
-        z-index: 2;
-    }
+  .footer-icons {
+    width: 700px;
+    margin-bottom: 100px;
+    height: 50px;
+  }
 
-    .contact-form-container h2 {
-        font-size: var(--HeadingXXL);
-    }
+  .inputs-containers {
+    width: 500px;
+  }
 
-    .contact-form-container p {
-        width: 380px;
-    }
+  #my-name {
+    margin-left: -90px;
+  }
 
-    .footer-icons {
-        width: 700px;
-        margin-bottom: 100px;
-        height: 50px;
-    }
+  #project-list-container-1,
+  #project-list-container-3,
+  #project-list-container-5 {
+    margin-left: 10px;
+  }
 
-    .inputs-containers {
-        width: 500px;
-    }
+  #project-list-container-2,
+  #project-list-container-4,
+  #project-list-container-6 {
+    margin-left: -10px;
+  }
 
-    #my-name {
-        margin-left: -90px;
-    }
+  #github-bottom,
+  #front-end-mentor-bottom,
+  #linkedin-bottom {
+    position: absolute;
+  }
 
-    #project-list-container-1,
-    #project-list-container-3,
-    #project-list-container-5  {
-        margin-left: 10px;
-    }
+  #front-end-mentor-bottom {
+    margin-left: 200px;
+  }
 
-    #project-list-container-2,
-    #project-list-container-4,
-    #project-list-container-6 {
-        margin-left: -10px;
-    }
+  #github-bottom {
+    margin-left: 140px;
+  }
 
-    #github-bottom,
-    #front-end-mentor-bottom,
-    #linkedin-bottom {
-        position: absolute;
-    }
+  #linkedin-bottom {
+    margin-left: 260px;
+  }
 
-    #front-end-mentor-bottom {
-        margin-left: 200px;
-    }
+  #send-me-button {
+    margin-left: 260px;
+  }
 
-    #github-bottom {
-        margin-left: 140px;
-    }
-
-    #linkedin-bottom {
-        margin-left: 260px;
-    }
-
-    #send-me-button {
-        margin-left: 260px;
-    }
-
-    .footer-icons-container {
-        top: 3730px;
-    }
-
-
+  .footer-icons-container {
+    top: 3730px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
+  #my-photo {
+    width: 330px;
+    top: 20px;
+    left: 580px;
+    height: 723px;
+  }
 
-    #my-photo {
-        width: 330px;
-        top: 20px;
-        left: 580px;
-        height: 723px;
-    }
+  .social-media-icons p {
+    margin-left: -430px;
+  }
 
-    .social-media-icons p {
-        margin-left: -430px;
-    }
+  #github {
+    margin-left: 280px;
+  }
 
-    #github {
-        margin-left: 280px;
-    }
+  #front-end-mentor {
+    margin-left: 330px;
+  }
 
-    #front-end-mentor {
-        margin-left: 330px;
-    }
+  #linkedin {
+    margin-left: 390px;
+  }
 
-    #linkedin {
-        margin-left: 390px;
-    }
+  .bio-container {
+    width: 880px;
+  }
 
-    .bio-container {
-        width: 880px;
-    }
+  .rings-middle-container {
+    left: 1150px;
+  }
 
-    .rings-middle-container {
-        left: 1150px;
-    }
+  #skill-2,
+  experience-1 #skill-5,
+  #skill-6,
+  #experience-2,
+  #experience-3,
+  #experience-6 {
+    left: 700px;
+  }
 
-    #skill-2,
-    experience-1 #skill-5,
-    #skill-6,
-    #experience-2,
-    #experience-3,
-    #experience-6 {
-        left: 700px;
-    }
+  #skill-1,
+  #skill-3,
+  #skill-4,
+  #experience-5,
+  #experience-1,
+  #experience-4 {
+    left: 100px;
+  }
 
-    #skill-1,
-    #skill-3,
-    #skill-4,
-    #experience-5,
-    #experience-1,
-    #experience-4 {
-        left: 100px;
-    }
+  #skill-4,
+  #experience-5 {
+    top: 685px;
+  }
 
-    #skill-4,
-    #experience-5 {
-        top: 685px;
-    }
+  #circle-top {
+    left: 540px;
+  }
 
-    #circle-top {
-        left: 540px;
-    }
+  #experience-5 {
+    top: 630px;
+  }
 
-    #experience-5 {
-        top: 630px;
-    }
+  #skill-3,
+  #experience-4 {
+    left: 700px;
+    top: 785px;
+  }
 
-    #skill-3,
-    #experience-4 {
-        left: 700px;
-        top: 785px;
-    }
+  #experience-4 {
+    top: 740px;
+  }
 
-    #experience-4 {
-        top: 740px;
-    }
+  #skill-2,
+  #experience-2 {
+    left: 400px;
+    top: 1075px;
+  }
 
-    #skill-2,
-    #experience-2 {
-        left: 400px;
-        top: 1075px;
-    }
+  #experience-2 {
+    top: 1030px;
+  }
 
-    #experience-2 {
-        top: 1030px;
-    }
+  #skill-5,
+  #experience-6 {
+    left: 400px;
+    top: 690px;
+  }
 
-    #skill-5,
-    #experience-6 {
-        left: 400px;
-        top: 690px;
-    }
+  #skill-6,
+  #experience-3 {
+    top: 980px;
+  }
 
-    #skill-6,
-    #experience-3 {
-        top: 980px;
-    }
+  #experience-3 {
+    top: 935px;
+  }
 
-    #experience-3 {
-        top: 935px;
-    }
+  #experience-6 {
+    top: 630px;
+  }
 
-    #experience-6 {
-        top: 630px;
-    }
+  #rings-middle {
+    display: none;
+  }
 
-    #rings-middle {
-        display: none;
-    }
+  .portfolio-title {
+    margin-top: -140px;
+  }
 
-    .portfolio-title {
-        margin-top: -140px;
-    }
+  .portfolio-title h2 {
+    font-size: var(--HeadingXXL);
+    margin-left: 50px;
+  }
 
-    .portfolio-title h2 {
-        font-size: var(--HeadingXXL);
-        margin-left: 50px;
-    }
+  .contact-me-container {
+    position: absolute;
+    left: 50px;
+    top: 2850px;
+  }
 
-    .contact-me-container {
-        position: absolute;
-        left: 50px;
-        top: 2850px;
-    }
+  .contact-me-top {
+    position: absolute;
+    top: 1100px;
+    left: 650px;
+  }
 
-    .contact-me-top {
-        position: absolute;
-        top: 1100px;
-        left: 650px;
-    }
+  .projects-portfolio-container img {
+    width: 391px;
+    height: 299px;
+  }
 
-    .projects-portfolio-container img {
-        Width: 391px;
-        Height: 299px;
-    }
+  #project-list-container-1,
+  #project-list-container-3 {
+    margin-left: 40px;
+  }
 
-    #project-list-container-1,
-    #project-list-container-3 {
-        margin-left: 40px;
-    }
+  #project-list-container-2,
+  #project-list-container-4 {
+    margin-left: -40px;
+  }
 
-    #project-list-container-2,
-    #project-list-container-4 {
-        margin-left: -40px;
-    }
+  .contact-me-container-info {
+    position: absolute;
+    left: 30px;
+    top: 3020px;
+  }
 
-    .contact-me-container-info {
-        position: absolute;
-        left: 30px;
-        top: 3020px;
-    }
+  .form-container {
+    margin-left: 450px;
+    margin-top: 70px;
+  }
 
-    .form-container {
-        margin-left: 450px;
-        margin-top: 70px;
-    }
+  .contact-form-container p {
+    text-align: left;
+  }
 
-    .contact-form-container p {
-        text-align: left;
-    }
+  .footer-icons {
+    width: 880px;
+  }
 
-    .footer-icons {
-        width: 880px;
-    }
+  #my-name {
+    margin-left: 10px;
+  }
 
-    #my-name {
-        margin-left: 10px;
-    }
+  #github-bottom {
+    margin-left: 240px;
+  }
 
-    #github-bottom {
-        margin-left: 240px;
-    }
+  #linkedin-bottom {
+    margin-left: 360px;
+  }
 
-    #linkedin-bottom {
-        margin-left: 360px;
-    }
+  #front-end-mentor-bottom {
+    margin-left: 300px;
+  }
 
-    #front-end-mentor-bottom {
-        margin-left: 300px;
-    }
+  .footer-icons-container {
+    top: 3570px;
+    left: 500px;
+  }
 
-    .footer-icons-container {
-        top: 3570px;
-        left: 500px;
-    }
-
-    .rings-bottom-container {
-        top: 2685px;
-    }
-
+  .rings-bottom-container {
+    top: 2685px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
+  .social-media-icons p {
+    margin-left: -480px;
+  }
 
-    .social-media-icons p {
-        margin-left: -480px;
-    }
+  #github {
+    margin-left: 320px;
+  }
 
-    #github {
-        margin-left: 320px;
-    }
+  #front-end-mentor {
+    margin-left: 370px;
+  }
 
-    #front-end-mentor {
-        margin-left: 370px;
-    }
+  #linkedin {
+    margin-left: 430px;
+  }
 
-    #linkedin {
-        margin-left: 430px;
-    }
+  #circle-top {
+    left: 740px;
+    top: 470px;
+  }
 
-    #circle-top {
-        left: 740px;
-        top: 470px;
-    }
+  #contact-me-button {
+    margin-left: 20px;
+  }
 
-    #contact-me-button {
-        margin-left: 20px;
-    }
+  .bio-container {
+    width: 1000px;
+  }
 
-    .bio-container {
-        width: 1000px;
-    }
+  .bio-container h1 {
+    margin-left: 20px;
+  }
 
-    .bio-container h1 {
-        margin-left: 20px;
-    }
+  .bio-container p {
+    margin-left: 20px;
+  }
 
-    .bio-container p {
-        margin-left: 20px;
-    }
+  .bio-container button {
+    margin-left: 50px;
+  }
 
-    .bio-container button {
-        margin-left: 50px;
-    }
+  .portfolio-title {
+    margin-left: 100px;
+    width: 1000px;
+  }
 
-    .portfolio-title {
-        margin-left: 100px;
-        width: 1000px;
-    }
+  #my-photo {
+    left: 780px;
+  }
 
-    #my-photo {
-        left: 780px;
-    }
+  /* Overlay styling start*/
 
-    /* Overlay styling start*/
+  .project-container {
+    position: relative;
+    display: inline-block;
+  }
 
-    .project-container {
-        position: relative;
-        display: inline-block;
-    }
+  .project-container img {
+    transition: filter 0.3s ease;
+  }
 
-    .project-container img {
-        transition: filter 0.3s ease;
-    }
+  .project-container:hover img {
+    filter: brightness(0.3);
+  }
 
-    .project-container:hover img {
-        filter: brightness(0.3);
-    }
+  .previews-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
 
-    .previews-container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-        z-index: 1;
-    }
+  .project-container:hover .previews-container {
+    opacity: 1;
+  }
 
-    .project-container:hover .previews-container {
-        opacity: 1;
-    }
+  .previews-container a {
+    color: var(--White);
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-bottom: 80px;
+  }
 
-    .previews-container a {
-        color: var(--White);
-        padding: 10px 20px;
-        text-decoration: none;
-        margin-bottom: 80px;
-    }
+  .project-container h2 {
+    margin-bottom: 20px;
+  }
 
-    .project-container h2 {
-        margin-bottom: 20px;
-    }
+  .previews-container a:not(:last-child) {
+    margin-bottom: -10px;
+  }
 
-    .previews-container a:not(:last-child) {
-        margin-bottom: -10px;
-    }
+  /* Overlay styling end*/
 
-    /* Overlay styling end*/
+  .project-list-container {
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
-    .project-list-container {
-        justify-content: space-evenly;
-        align-items: center;
-    }
+  #skill-1,
+  #experience-1,
+  #skill-4,
+  #experience-5 {
+    left: 150px;
+  }
 
-    #skill-1,
-    #experience-1,
-    #skill-4,
-    #experience-5 {
-        left: 150px;
-    }
+  #rings-middle {
+    left: 1100px;
+    top: 990px;
+  }
 
-    #rings-middle {
-        left: 1100px;
-        top: 990px;
-    }
+  #skill-2,
+  #experience-2,
+  #skill-5,
+  #experience-6 {
+    left: 500px;
+  }
 
-    #skill-2,
-    #experience-2,
-    #skill-5,
-    #experience-6 {
-        left: 500px;
-    }
+  #skill-3,
+  #experience-4,
+  #skill-6,
+  #experience-3 {
+    left: 850px;
+  }
 
-    #skill-3,
-    #experience-4,
-    #skill-6,
-    #experience-3 {
-        left: 850px;
-    }
+  #project-list-container-1,
+  #project-list-container-3,
+  #project-list-container-5 {
+    margin-left: 120px;
+  }
 
-    #project-list-container-1,
-    #project-list-container-3,
-    #project-list-container-5  {
-        margin-left: 120px;
-    }
+  #project-list-container-2,
+  #project-list-container-4,
+  #project-list-container-6 {
+    margin-left: -120px;
+  }
 
-    #project-list-container-2,
-    #project-list-container-4,
-    #project-list-container-6 {
-        margin-left: -120px;
-    }
+  .projects-portfolio-container img {
+    width: 480px;
+    height: 340px;
+  }
 
+  .contact-me-container {
+    left: 150px;
+    top: 2300px;
+  }
 
-    .projects-portfolio-container img {
-        Width: 480px;
-        Height: 340px;
-    }
+  .contact-me-container-info {
+    left: 130px;
+    top: 2480px;
+  }
 
-    .contact-me-container {
-        left: 150px;
-        top: 2300px;
-    }
+  .rings-bottom-container {
+    top: 3500px;
+    left: -250px;
+  }
 
-    .contact-me-container-info {
-        left: 130px;
-        top: 2480px;
-    }
+  .footer-icons {
+    width: 1000px;
+  }
 
-    .rings-bottom-container {
-        top: 3500px;
-        left: -250px;
-    }
+  #github-bottom {
+    margin-left: 320px;
+  }
 
-    .footer-icons {
-        width: 1000px;
-    }
+  #linkedin-bottom {
+    margin-left: 440px;
+  }
 
-    #github-bottom {
-        margin-left: 320px;
-    }
+  #front-end-mentor-bottom {
+    margin-left: 380px;
+  }
 
-    #linkedin-bottom {
-        margin-left: 440px;
-    }
+  .footer-icons-container {
+    top: 3550px;
+    left: 600px;
+  }
 
-    #front-end-mentor-bottom {
-        margin-left: 380px;
-    }
+  .contact-me-container-info {
+    position: absolute;
+    left: 130px;
+    top: 3080px;
+  }
 
-    .footer-icons-container {
-        top: 3550px;
-        left: 600px;
-    }
+  .contact-me-container {
+    position: absolute;
+    left: 140px;
+    top: 2900px;
+  }
 
-    .contact-me-container-info {
-        position: absolute;
-        left: 130px;
-        top: 3080px;
-    }
-
-    .contact-me-container {
-        position: absolute;
-        left: 140px;
-        top: 2900px;
-    }
-
-    .rings-bottom-container {
-        top: 3285px;
-    }
-
+  .rings-bottom-container {
+    top: 3285px;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
+  #skill-1,
+  #experience-1,
+  #skill-4,
+  #experience-5 {
+    left: 200px;
+  }
 
-    #skill-1,
-    #experience-1,
-    #skill-4,
-    #experience-5 {
-        left: 200px;
-    }
+  #skill-2,
+  #experience-2,
+  #skill-5,
+  #experience-6 {
+    left: 570px;
+  }
 
-    #skill-2,
-    #experience-2,
-    #skill-5,
-    #experience-6 {
-        left: 570px;
-    }
+  #skill-3,
+  #experience-4,
+  #skill-6,
+  #experience-3 {
+    left: 950px;
+  }
 
-    #skill-3,
-    #experience-4,
-    #skill-6,
-    #experience-3 {
-        left: 950px;
-    }
+  .contact-me-container {
+    left: 200px;
+  }
 
-    .contact-me-container {
-        left: 200px;
-    }
+  .contact-me-container-info {
+    left: 190px;
+  }
 
-    .contact-me-container-info {
-        left: 190px;
-    }
+  .portfolio-title {
+    margin-left: 150px;
+  }
 
-    .portfolio-title {
-        margin-left: 150px;
-    }
-
-    .contact-me-top {
-        left: 1000px;
-    }
-
+  .contact-me-top {
+    left: 1000px;
+  }
 }
 
 @media only screen and (min-width: 1600px) {
+  .social-media-icons p {
+    margin-left: -580px;
+  }
 
-    .social-media-icons p {
-        margin-left: -580px;
-    }
+  .bio-container p {
+    margin-left: 150px;
+  }
 
-    .bio-container p {
-        margin-left: 150px;
-    }
+  .bio-container {
+    width: 1280px;
+  }
 
-    .bio-container {
-        width: 1280px;
-    }
+  #circle-top {
+    left: 890px;
+  }
 
-    #circle-top {
-        left: 890px;
-    }
+  #contact-me-button {
+    margin-left: 150px;
+  }
 
-    #contact-me-button {
-        margin-left: 150px;
-    }
+  .portfolio-title {
+    width: 1200px;
+    margin-left: 200px;
+  }
 
+  #my-photo {
+    left: 880px;
+  }
 
-    .portfolio-title {
-        width: 1200px;
-        margin-left: 200px;
-    }
+  #github {
+    margin-left: 420px;
+  }
 
-    #my-photo {
-        left: 880px;
-    }
+  #front-end-mentor {
+    margin-left: 470px;
+  }
 
-    #github {
-        margin-left: 420px;
-    }
+  #linkedin {
+    margin-left: 530px;
+  }
 
-    #front-end-mentor {
-        margin-left: 470px;
-    }
+  .bio-container h1 {
+    margin-left: 150px;
+  }
 
-    #linkedin {
-        margin-left: 530px;
-    }
+  .bio-container button {
+    margin-left: 150px;
+  }
 
-    .bio-container h1 {
-        margin-left: 150px;
-    }
+  .form-container {
+    margin-left: 500px;
+  }
 
-    .bio-container button {
-        margin-left: 150px;
-    }
+  #rings-middle {
+    left: 1300px;
+  }
 
-    .form-container {
-        margin-left: 500px;
-    }
+  #skill-1,
+  #experience-1,
+  #skill-4,
+  #experience-5 {
+    left: 270px;
+  }
 
-    #rings-middle {
-        left: 1300px;
-    }
+  #skill-2,
+  #experience-2,
+  #skill-5,
+  #experience-6 {
+    left: 700px;
+  }
 
-    #skill-1,
-    #experience-1,
-    #skill-4,
-    #experience-5 {
-        left: 270px;
-    }
+  #skill-3,
+  #experience-4,
+  #skill-6,
+  #experience-3 {
+    left: 1100px;
+  }
 
-    #skill-2,
-    #experience-2,
-    #skill-5,
-    #experience-6 {
-        left: 700px;
-    }
+  .footer-icons {
+    width: 1200px;
+  }
 
-    #skill-3,
-    #experience-4,
-    #skill-6,
-    #experience-3 {
-        left: 1100px;
-    }
+  .contact-me-container {
+    left: 300px;
+  }
 
-    .footer-icons {
-        width: 1200px;
-    }
-
-    .contact-me-container {
-        left: 300px;
-    }
-
-    .contact-me-container-info {
-        left: 290px;
-    }
+  .contact-me-container-info {
+    left: 290px;
+  }
 }

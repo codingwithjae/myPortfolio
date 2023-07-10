@@ -27,18 +27,21 @@ Users should be able to:
   - The email address is not formatted correctly
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
-- **Bonus**: Hook the form up so it sends and stores the user's enquiry (you can use a spreadsheet or Airtable to save the enquiries)
+- **Bonus**: Hook the form up so it sends and stores the user's inquiry (you can use a spreadsheet or Airtable to save the inquiries)
 - **Bonus**: Add your own details (image, skills, projects) to replace the ones in the design
 
 ### Screenshot
 
-![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzI0YjU2OGZiMjI5MWIxZjA3YWQ5YmQ4ODY1NDE4M2M5NjE4MTNkMCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/eFNQvbEjaRKNo8QRk8/giphy-downsized-large.gif)
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHd5ZWIzdTBtYXI5Z241eTYxN20yeTdrZnEyejk0N3RmdDBzYW44diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z1UpgXVRIJGyvgiQOl/giphy.gif" alt="Screenshot"/>
+</p>
 
 ### Links
 
-- Solution URL: [Github](https://github.com/jaedevgithub/myPortfolio)
+- Solution URL: [GitHub](https://github.com/jaedevgithub/myPortfolio)
 
-- Live Site URL: [Github Pages](https://codingwithjae.dev/)
+- Live Site URL: [GitHub Pages](https://codingwithjae.dev/)
 
 ## My process
 
@@ -52,12 +55,12 @@ Users should be able to:
 
 ### What I learned
 
-- I use the original Front End Mentor Project for making my own portfolio.
-- This project was done with mobile-first in mind. Was a great exercise for doing layout and for putting in practices Javascript concepts with the validation form. In future updates I would implement Airtable to the website.
+- I use the original Front End Mentor Project for making my portfolio.
+- This project was done with mobile-first in mind. Was a great exercise for doing layout and for putting into practice Javascript concepts with the validation form. In future updates, I would implement Airtable on the website.
 
 ### What can be improve
 
-- Validation form code still need some work.
+- The validation form code still needs some work.
 - HTML can be enhanced.
 
 ## Author
