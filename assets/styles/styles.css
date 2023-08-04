@@ -1041,26 +1041,26 @@ textarea {
   }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1920px) and (max-height: 1080px) {
   #skill-1,
   #experience-1,
   #skill-4,
   #experience-5 {
-    left: 200px;
+    left: 450px;
   }
 
   #skill-2,
   #experience-2,
   #skill-5,
   #experience-6 {
-    left: 570px;
+    left: 850px;
   }
 
   #skill-3,
   #experience-4,
   #skill-6,
   #experience-3 {
-    left: 950px;
+    left: 1250px;
   }
 
   .contact-me-container {
@@ -1072,102 +1072,120 @@ textarea {
   }
 
   .portfolio-title {
-    margin-left: 150px;
+    margin-left: 400px;
   }
 
   .contact-me-top {
-    left: 1000px;
+    left: 1350px;
   }
-}
-
-@media only screen and (min-width: 1600px) {
-  .social-media-icons p {
-    margin-left: -580px;
-  }
-
-  .bio-container p {
-    margin-left: 150px;
-  }
-
-  .bio-container {
-    width: 1280px;
+  #my-photo {
+    left: 1100px;
   }
 
   #circle-top {
-    left: 890px;
+    left: 1050px;
   }
 
-  #contact-me-button {
-    margin-left: 150px;
+  #project-list-container-1,
+  #project-list-container-3,
+  #project-list-container-5 {
+    margin-left: 350px;
   }
 
-  .portfolio-title {
-    width: 1200px;
-    margin-left: 200px;
+  #project-list-container-2,
+  #project-list-container-4,
+  #project-list-container-6 {
+    margin-left: -350px;
   }
 
-  #my-photo {
-    left: 880px;
+  .contact-me-container,
+  .contact-me-container-info {
+    left: 400px;
   }
 
-  #github {
-    margin-left: 420px;
+  .footer-icons-container {
+    left: 950px;
   }
+}
 
-  #front-end-mentor {
-    margin-left: 470px;
-  }
-
-  #linkedin {
-    margin-left: 530px;
-  }
-
-  .bio-container h1 {
-    margin-left: 150px;
-  }
-
-  .bio-container button {
-    margin-left: 150px;
-  }
-
-  .form-container {
-    margin-left: 500px;
-  }
-
-  #rings-middle {
-    left: 1300px;
-  }
-
+@media only screen and (min-width: 2048px) {
   #skill-1,
   #experience-1,
   #skill-4,
   #experience-5 {
-    left: 270px;
+    left: 550px;
   }
 
   #skill-2,
   #experience-2,
   #skill-5,
   #experience-6 {
-    left: 700px;
+    left: 950px;
   }
 
   #skill-3,
   #experience-4,
   #skill-6,
   #experience-3 {
-    left: 1100px;
+    left: 1350px;
+  }
+}
+
+@media only screen and (min-width: 3840px) {
+  #skill-1,
+  #experience-1,
+  #skill-4,
+  #experience-5 {
+    right: 1350px;
   }
 
-  .footer-icons {
-    width: 1200px;
+  #skill-2,
+  #experience-2,
+  #skill-5,
+  #experience-6 {
+    left: 1850px;
   }
 
-  .contact-me-container {
-    left: 300px;
+  #skill-3,
+  #experience-4,
+  #skill-6,
+  #experience-3 {
+    left: 2250px;
   }
 
+  #my-photo {
+    left: 2100px;
+  }
+
+  .portfolio-title {
+    margin-left: 1400px;
+  }
+
+  .contact-me-top {
+    left: 2350px;
+  }
+
+  #circle-top {
+    left: 2050px;
+  }
+  #project-list-container-1,
+  #project-list-container-3,
+  #project-list-container-5 {
+    margin-left: 1350px;
+  }
+
+  #project-list-container-2,
+  #project-list-container-4,
+  #project-list-container-6 {
+    margin-left: -1350px;
+  }
+
+  .contact-me-container,
   .contact-me-container-info {
-    left: 290px;
+    left: 1400px;
+  }
+
+  .footer-icons-container {
+    left: 1950px;
   }
 }
