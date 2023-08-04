@@ -47,11 +47,9 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup.
-- Flexbox.
-- CSS Grid.
-- Vanilla JavaScript.
-- Mobile-first design.
+- HTML5.
+- CSS.
+- JavaScript.
 
 ### What I learned
 
@@ -61,7 +59,7 @@ Users should be able to:
 ### What can be improve
 
 - The validation form code still needs some work.
-- HTML can be enhanced.
+- HTML can be more semantic and CSS can use the BEM methodology.
 
 ## Author
 
