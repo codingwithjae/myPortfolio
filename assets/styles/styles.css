@@ -1041,7 +1041,7 @@ textarea {
   }
 }
 
-@media only screen and (min-width: 1920px) and (max-height: 1080px) {
+@media only screen and (min-width: 1920px) {
   #skill-1,
   #experience-1,
   #skill-4,
