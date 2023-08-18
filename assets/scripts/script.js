@@ -47,7 +47,7 @@ emailField.parentNode.insertBefore(errorMessage, emailField.nextSibling);
 emailField.parentNode.insertBefore(errorIcon, emailField.nextSibling);
 
 // CV file download
-const fileURL = "https://drive.google.com/uc?id=101TAzLt4N352RFR4p77OlBGFzgrnPzZy&export=download";
+const fileURL = "https://drive.google.com/uc?id=11gKOyn0MO59TosRrjAtHxETUOW72kGPk&export=download";
 
 downloadButton.addEventListener("click", () => {
     window.location.href = fileURL;
